@@ -12,38 +12,35 @@ namespace ProyectoFinal_Taller_de_Casos_13126
         static void Main(string[] args)
         {
             Console.WriteLine("QUE PISO DEL EDIFICIO DESEA MONITOREAR: ");
-            Random random = new Random();
-            timer = new Timer();
-            const int TEMPERATURA = 140;
-            const int HUMO = 100;
+            MenuPrincipal();
             Console.WriteLine("     _______________________________________");
-            Console.WriteLine("    /                                      /|");
-            Console.WriteLine("   /         / /  /_ ] /| /               / |");
-            Console.WriteLine("  /         /_/  /    / |/               /  |");
+            Console.WriteLine("    /        _  _     _ _        _         /|");
+            Console.WriteLine("   /         / /     /_ /    /| /         / |");
+            Console.WriteLine("  /         /_/     /      _/ |/         /  |");
             Console.WriteLine(" /______________________________________/   |");
             Console.WriteLine(" ||'''''''''''''''''||'''''''''''''''''||   |");
-            Console.WriteLine(" ||   |__|   |__|   ||                 ||   |");
-            Console.WriteLine(" ||   |__|   |__|   ||                 ||  /|");
-            Console.WriteLine(" ||   |__|   |__| PISO 4               || / |");
+            Console.WriteLine(" ||   |__|   |__|   ||   |__|   |__|   ||   |");
+            Console.WriteLine(" ||   |__|   |__|   ||   |__|   |__|   ||  /|");
+            Console.WriteLine(" ||   |__|   |__| PISO 4 |__|   |__|   || / |");
             Console.WriteLine(" ||                 ||                 ||/  |");
             Console.WriteLine(" ||-----------------||-----------------||   |");
             Console.WriteLine(" ||                 ||                 ||   |");
-            Console.WriteLine(" ||                 ||                 ||  /|");
-            Console.WriteLine(" ||               PISO 3               || / |");
-            Console.WriteLine(" ||                 ||                 ||/  |");
+            Console.WriteLine(" ||   |__|   |__|   ||   |__|   |__|   ||  /|");
+            Console.WriteLine(" ||   |__|   |__| PISO 3 |__|   |__|   || / |");
+            Console.WriteLine(" ||   |__|   |__|   ||   |__|   |__|   ||/  |");
             Console.WriteLine(" ||-----------------||-----------------||   |");
             Console.WriteLine(" ||                 ||                 ||   |");
-            Console.WriteLine(" ||               PISO 2               ||  /|");
-            Console.WriteLine(" ||                 ||                 || / |");
-            Console.WriteLine(" ||                 ||                 ||/  |");
+            Console.WriteLine(" ||   |__|   |__| PISO 2 |__|   |__|   ||  /|");
+            Console.WriteLine(" ||   |__|   |__|   ||   |__|   |__|   || / |");
+            Console.WriteLine(" ||   |__|   |__|   ||   |__|   |__|   ||/  |");
             Console.WriteLine(" ||-----------------||-----------------||   |");
             Console.WriteLine(" ||                 ||                 ||   |");
             Console.WriteLine(" ||      _____    PISO 1    _____      ||   /");
             Console.WriteLine(" ||      |S E|      ||      |S E|      ||  /");
-            Console.WriteLine(" ||      |!  |      ||      |!  |      || /");
+            Console.WriteLine(" ||      |?  |      ||      |?  |      || /");
             Console.WriteLine(" ||______|___|______||______|___|______||/");
-            Console.WriteLine("                               ");
-            Console.WriteLine("");
+            Console.WriteLine("  _______________________________________");
+            Console.WriteLine("______________________________________");
         }
         static void MenuPrincipal()
         {
@@ -57,14 +54,19 @@ namespace ProyectoFinal_Taller_de_Casos_13126
             switch(Opcion)
             {
                 case 1:
+                    Console.WriteLine("Ingresando Piso 1...");
                     break;
                 case 2:
+                    Console.WriteLine("Ingresando Piso 2...");
                     break;
                 case 3:
+                    Console.WriteLine("Ingresando Piso 3...");
                     break;
                 case 4:
+                    Console.WriteLine("Ingresando Piso 4...");
                     break;
                 case 5:
+                    Console.WriteLine("Saliendo...");
                     break;
                 default:
                     Console.WriteLine("Opción no valida...");
