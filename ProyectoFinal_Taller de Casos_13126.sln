@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoFinal_Taller de Casos_13126", "ProyectoFinal_Taller de Casos_13126.csproj", "{A1CCB5EF-246A-4E62-9C6F-E8BFC03B34A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PisosEdificio", "..\PisosEdificio\PisosEdificio.csproj", "{A33A1B8B-8608-429E-B3CB-028BB7A08AFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A1CCB5EF-246A-4E62-9C6F-E8BFC03B34A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1CCB5EF-246A-4E62-9C6F-E8BFC03B34A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1CCB5EF-246A-4E62-9C6F-E8BFC03B34A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A33A1B8B-8608-429E-B3CB-028BB7A08AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A33A1B8B-8608-429E-B3CB-028BB7A08AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A33A1B8B-8608-429E-B3CB-028BB7A08AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A33A1B8B-8608-429E-B3CB-028BB7A08AFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using PisosEdificio;
 
 namespace ProyectoFinal_Taller_de_Casos_13126
 {
@@ -51,6 +52,7 @@ namespace ProyectoFinal_Taller_de_Casos_13126
         }
         static void MenuPrincipal()
         {
+            
             Console.WriteLine("1.Piso Uno--");
             Console.WriteLine("2.Piso Dos--");
             Console.WriteLine("3.Piso Tres--");
@@ -62,7 +64,9 @@ namespace ProyectoFinal_Taller_de_Casos_13126
             {
                 case 1:
                     Console.WriteLine("📍 Ingresando Piso 1...");
-                    Piso1(); 
+                    Piso1 suelo = new Piso1();
+                    suelo.PrimerPiso();
+                    Piso10(); 
                     break;
                 case 2:
                     Console.WriteLine("📍 Ingresando Piso 2...");
@@ -84,7 +88,7 @@ namespace ProyectoFinal_Taller_de_Casos_13126
                     break;
             }
         }
-        static void Piso1()
+        static void Piso10()
         {
             Console.WriteLine("Estadisticas del Turbo Generador uno:");
             int temperatura, humo;
